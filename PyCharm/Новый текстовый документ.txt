@@ -1,0 +1,18 @@
+
+python ex_workers.py add --name="Сидоров Сидор" --post="Главный инженер" --year=2012
+
+python ex_workers.py add --name="Иванов Иван" --post="инженер" --year=2015
+
+python ex_workers.py add --data="data_workers.json" --name="Сидоров Сидор" --post="Главный инженер" --year=2012
+
+python ex_workers.py display
+
+C:\Users\kuvsh\Desktop\СКФУ\2_4_семестр\Основы Программной инженерии\Git\Py__L20\PyCharm\example tasks\data_workers.json
+
+python ind_1.py add --name="Иванов Иван" --z="овен" --b="2001.03.21"
+
+python ind_2.py add --name="Иванов Иван" --z="овен" --b="2001.03.21"
+
+
+python ind_2.py add --name="Сидоров Николай" --z="лев" --b="2005.08.15"
+python ind_2.py select --z="лев"
